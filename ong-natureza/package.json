@@ -1,0 +1,17 @@
+{
+  "name": "verde-vivo-ong",
+  "version": "1.0.0",
+  "description": "ONG de proteção ambiental - combate ao desmatamento e redução de CO₂",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": ["ong", "meio-ambiente", "sustentabilidade", "q-developer-quest-tdc-2025"],
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

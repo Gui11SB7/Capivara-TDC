@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verde Vivo - Protegendo Nossa Natureza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🌳 Verde Vivo</div>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#mission">Missão</a></li>
+                <li><a href="#impact">Impacto</a></li>
+                <li><a href="#action">Ação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Protegendo o Futuro do Planeta</h1>
+                <p>Combatemos o desmatamento e reduzimos emissões de CO₂ através de ações concretas e educação ambiental.</p>
+                <button class="cta-btn" onclick="showImpact()">Ver Nosso Impacto</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="number" id="trees">0</span>
+                    <span class="label">Árvores Plantadas</span>
+                </div>
+                <div class="stat">
+                    <span class="number" id="co2">0</span>
+                    <span class="label">Toneladas CO₂ Reduzidas</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="mission" class="mission">
+            <h2>Nossa Missão</h2>
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <div class="icon">🌲</div>
+                    <h3>Reflorestamento</h3>
+                    <p>Plantamos árvores nativas em áreas degradadas</p>
+                </div>
+                <div class="mission-card">
+                    <div class="icon">🏭</div>
+                    <h3>Redução CO₂</h3>
+                    <p>Projetos para diminuir emissões industriais</p>
+                </div>
+                <div class="mission-card">
+                    <div class="icon">📚</div>
+                    <h3>Educação</h3>
+                    <p>Conscientização sobre sustentabilidade</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="impact" class="impact">
+            <h2>Impacto em Tempo Real</h2>
+            <div class="impact-display" id="impact-data">
+                <p>Carregando dados...</p>
+            </div>
+        </section>
+
+        <section id="action" class="action">
+            <h2>Como Você Pode Ajudar</h2>
+            <div class="action-buttons">
+                <button class="action-btn" onclick="donate()">Doar</button>
+                <button class="action-btn" onclick="volunteer()">Voluntariar</button>
+                <button class="action-btn" onclick="share()">Compartilhar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Verde Vivo ONG - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
